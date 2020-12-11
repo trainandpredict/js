@@ -1,6 +1,6 @@
 {
   "name": "trainandpredict",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"JS library for calling the trainandpredict.com API\"",
   "main": "index.js",
   "scripts": {
