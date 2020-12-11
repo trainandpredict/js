@@ -33,7 +33,7 @@ const tap = {
 
     },
     recommendForItemAsync: async function (api_key, item_id) {
-        const response = axios.get(endpoint + '/rec/item/' + item_id + '?api_key=' + api_key);
+        const response = await axios.get(endpoint + '/rec/item/' + item_id + '?api_key=' + api_key);
 
         return response;
     },
